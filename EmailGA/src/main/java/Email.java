@@ -33,7 +33,9 @@ public class Email {
             for (EmailServiceResource x : emailServiceResources) {
                 System.out.println(x.name().toString());    // Need to print the name using toString().
             }
-
+            
+            // Lines 32 - 34 does not seem to work, I can see my subscription ID and related details.
+            
         }
         catch (Exception e) {
             System.out.println(e.toString());   // Read with the exception.
