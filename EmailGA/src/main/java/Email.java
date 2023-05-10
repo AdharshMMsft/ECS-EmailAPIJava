@@ -1,5 +1,13 @@
-import java.lang.Object;
+/*
 
+Author: 4dh4r5h 
+Language: Java
+Last Modified: 10/05/2023
+
+*/
+
+import java.lang.Object;
+import java.lang.*;
 import com.azure.core.credential.TokenCredential;
 import com.azure.core.http.rest.PagedIterable;
 import com.azure.core.management.AzureEnvironment;
@@ -12,9 +20,7 @@ import com.azure.resourcemanager.communication.*;
 import com.azure.resourcemanager.communication.CommunicationManager;
 import com.azure.resourcemanager.communication.models.EmailServiceResource;
 
-
-
-import java.lang.*;
+// This is a public class
 
 public class Email {
 
